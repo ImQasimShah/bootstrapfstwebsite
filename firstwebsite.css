@@ -1,0 +1,86 @@
+
+
+
+html{
+    overflow-x: hidden;
+    font-family: "Poppins", system-ui !important; 
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", system-ui !important;
+}
+
+ .navbar-expand-lg .navbar-collapse {
+    margin-left: 20rem;
+    
+}
+
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+#mainsection{
+/* border: 1px solid red; */
+padding-top: 150px;
+}
+
+#mainsection h5{
+    color: rgb(69, 17, 17);
+    font-size: 30px;
+}
+
+#mainsection h1{
+    color: rgb(102, 26, 26);
+    font-size: 70px;
+}
+
+#mainsection button{
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#aboutme{
+    padding-top: 100px;
+}
+
+#aboutme button{
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#cardiv{
+    padding-block: 100px;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    
+ .navbar-expand-lg .navbar-collapse {
+    margin-left: 0rem;
+    
+}
+
+#mainsection {
+    /* border: 1px solid red; */
+    padding-top: 50px;
+}
+
+#mainsection p{
+    text-align: justify;
+}
+
+#aboutme p{
+    text-align: justify;
+}
+
+}
